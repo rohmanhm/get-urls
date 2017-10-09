@@ -1,4 +1,4 @@
-# get-urls [![Build Status](https://travis-ci.org/sindresorhus/get-urls.svg?branch=master)](https://travis-ci.org/sindresorhus/get-urls)
+# get-urls-to-array
 
 > Get all URLs in a string
 
@@ -8,7 +8,7 @@ The URLs will be [normalized](https://github.com/sindresorhus/normalize-url).
 ## Install
 
 ```
-$ npm install --save get-urls
+$ npm install --save get-urls-to-array
 ```
 
 
@@ -17,16 +17,16 @@ $ npm install --save get-urls
 ```js
 const text = 'Lorem ipsum dolor sit amet, //sindresorhus.com consectetuer adipiscing http://yeoman.io elit.';
 
-getUrls(text);
-//=> Set {'http://sindresorhus.com', 'http://yeoman.io'}
+getUrlsToArray(text);
+//=> ['http://sindresorhus.com', 'http://yeoman.io']
 ```
 
 
 ## API
 
-### getUrls(text, [options])
+### getUrlsToArray(text, [options])
 
-Returns a `Set` of URLs.
+Returns a `Array<string>` of URLs.
 
 ### text
 
@@ -49,3 +49,4 @@ See the `normalize-url` [options](https://github.com/sindresorhus/normalize-url#
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Roman Masyhar](https://github.com/rohmanhm)
