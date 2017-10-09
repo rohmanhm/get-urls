@@ -1,13 +1,13 @@
 {
-  "name": "get-urls",
-  "version": "7.0.0",
-  "description": "Get all URLs in a string",
+  "name": "get-urls-to-array",
+  "version": "1.0.0",
+  "description": "Get all URLs in a string to Array",
   "license": "MIT",
-  "repository": "sindresorhus/get-urls",
+  "repository": "rohmanhm/get-urls-to-array",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Roman Masyhar",
+    "email": "mhrohman@live.com",
+    "url": "https://rohmanhm.github.io"
   },
   "engines": {
     "node": ">=4"
